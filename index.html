@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人簡介</title>
+    <style>
+        /* 全局樣式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 頁首樣式 */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* 各部分樣式 */
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        /* 個人資訊樣式 */
+        #personal-info {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        /* 社交媒體連結樣式 */
+        #social-media ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #social-media ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        /* 活動紀錄樣式 */
+        #activities ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #activities ul li {
+            background-color: #f1f1f1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* 下載區樣式 */
+        #downloads {
+            text-align: center;
+        }
+
+        #downloads a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>個人簡介</h1>
+        <p>展示我的個人資訊、社交媒體連結、個人照片和活動紀錄</p>
+    </header>
+    <section id="personal-info">
+        <h2>個人資料</h2>
+        <p>姓名: 藍國桐 老師</p>
+        <p>聯絡資訊: <a href="mailto:ktlan@gs.takming">ktlan@gs.takming</a></p>
+        <img src="profile.jpg" alt="個人照片" id="profile-photo">
+    </section>
+    <section id="social-media">
+        <h2>社交媒體連結</h2>
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+    <section id="activities">
+        <h2>活動紀錄</h2>
+        <ul>
+            <li>活動 1: 參加教育科技研討會</li>
+            <li>活動 2: 主持機器學習工作坊</li>
+        </ul>
+    </section>
+    <section id="downloads">
+        <h2>下載</h2>
+        <a href="document.pdf" download>下載我的簡歷</a>
+    </section>
+    <script>
+        // 這裡可以加入一些互動功能，例如點擊按鈕顯示更多資訊等
+        // 現在先留空，未來可以根據需求擴展
+    </script>
+</body>
+</html>
